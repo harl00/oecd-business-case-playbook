@@ -10,7 +10,7 @@ The Playbook is based on the experience of Australia, and other OECD members, in
 <p>The Playbook covers the foundational concepts of a business case required to present a compelling argument for a digital or ICT investment. Each Play explores a core component of business case development, supported by helpful links.</p>
 
 <div class="btn-cta-group">
-<a class="au-btn" href="/get-started/">Get Started</a>
+<a class="au-btn" href="{{ site.baseurl }}/get-started/">Get Started</a>
 </div>
 </div>
 </div>
