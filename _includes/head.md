@@ -9,11 +9,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicons/favicon-16x16.png">
 <link rel="mask-icon" href="{{ site.baseurl }}/assets/favicons/safari-pinned-tab.svg" color="#06262d">
-<link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+<link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicons/favicon.ico">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <meta name="robots" content="index, follow">
@@ -28,14 +28,14 @@
 <meta property="og:title" content="Homepage - Digital Transformation Agency Business case playbook">
 <meta property="og:site_name" content="Digital Transformation Agency Business case playbook">
 <meta property="og:description" content="he Digital Transform provides countries with information on how to develop business cases which support investment decisions in digital transformation and ICT.">
-<meta property="og:image" content="/assets/favicon/dta-business-case-playbook.jpg">
+<meta property="og:image" content={{ site.baseurl }}assets/favicon/dta-business-case-playbook.jpg">
 <meta property="og:url" content="https://businesscaseplaybook.service.gov.au/">
 <title>{{page.title}} - DTA Business case playbook</title>
-<link rel="icon" href="/assets/favicons/favicon.ico">
-<link type="text/css" rel="stylesheet" href="/assets/css/main.css?{{site.time | date: '%s%N'}}">
+<link rel="icon" href=""{{ site.baseurl }}/assets/favicons/favicon.ico">
+<link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?{{site.time | date: '%s%N'}}">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 <!--[if lte IE 9]>
-    <script src="/assets/js/html5shiv.js"></script>
-    <script src="/assets/js/respond.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/html5shiv.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/respond.js"></script>
 <![endif]-->
-<script src="/assets/js/header.js"></script>
+<script src="{{ site.baseurl }}/assets/js/header.js"></script>
