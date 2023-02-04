@@ -39,6 +39,7 @@
     "@gov.au/link-list": "^3.0.6",
     "@gov.au/main-nav": "^1.0.6",
     "@gov.au/page-alerts": "^2.1.2",
+    "@gov.au/pancake-sass": "^2.3.7",
     "@gov.au/progress-indicator": "^3.1.6",
     "@gov.au/responsive-media": "^2.0.13",
     "@gov.au/select": "^2.0.10",
