@@ -4,9 +4,9 @@
             <div class="col-sm-12">
                 <div class="au-footer__end">
                     <ul class="au-link-list footer__legal-links au-link-list--inline">
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/accessibility">Accessibility</a></li>
-                        <li><a href="/disclaimer-and-copyright">Disclaimer</a></li>
+                        <li><a href="{{ site.baseurl }}/about">About</a></li>
+                        <li><a href="{{ site.baseurl }}/accessibility">Accessibility</a></li>
+                        <li><a href="{{ site.baseurl }}/disclaimer-and-copyright">Disclaimer</a></li>
                     </ul>
                     <p>© Commonwealth of Australia. With the exception of the Commonwealth Coat of Arms and where otherwise noted, this work is licensed under the CC BY 4.0 license.</a></p>
                 </div>
@@ -14,7 +14,7 @@
         </div>
     </div>
 </footer>
-<script src="/assets/js/script.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/script.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
 <script>
 if ($("li.page-link-child.active").length) {

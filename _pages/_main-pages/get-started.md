@@ -48,7 +48,7 @@ The OECD notes the importance to public sector transformation of developing ‘c
     <li>develop, use and store data and information.</li>
 </ul>
 <div class="call-out-margin">
-    <a class="au-btn au-btn--primary au-btn--large" href="/plays-introduction">How to use the Plays</a>
+    <a class="au-btn au-btn--primary au-btn--large" href="{{ site.baseurl }}/plays-introduction">How to use the Plays</a>
 </div>
 <div class="row">
     <div class="col-xs-12 col-sm-8">

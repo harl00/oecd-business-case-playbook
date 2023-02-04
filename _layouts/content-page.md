@@ -12,8 +12,8 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <a class="au-header__brand" href="/index.html">
-                            <img class="au-header__brand-image imgheader" alt="Insert alternate text here" src="/assets/img/header-logo-agov.png">
+                        <a class="au-header__brand" href="{{ site.baseurl }}/index.html">
+                            <img class="au-header__brand-image imgheader" alt="Insert alternate text here" src="{{ site.baseurl }}/assets/img/header-logo-agov.png">
                             <div class="au-header__text">
                                 <h1 class="au-header__heading calib-font"><b>Digital Transformation Agency</b></h1>
                                 <div class="au-header__subline calib-font">Business case playbook</div>
