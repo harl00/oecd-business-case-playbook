@@ -27,7 +27,7 @@ The Playbook is based on the experience of Australia, and other OECD members, in
 <li class="col-xs-12 col-sm-4">
 <div class="au-card au-card au-body  au-card--shadow au-card--centred au-card--clickable">
 <div class="au-card__inner ">
-<h2 class="au-card__title au-display-lg"><a href="/get-started" class="au-card--clickable__link ">Get started</a></h2>
+<h2 class="au-card__title au-display-lg"><a href="{{ site.baseurl }}/get-started" class="au-card--clickable__link ">Get started</a></h2>
 <p class="au-card__content">Learn about business cases and why they are important</p>
 </div>
 </div>
@@ -35,7 +35,7 @@ The Playbook is based on the experience of Australia, and other OECD members, in
 <li class="col-xs-12 col-sm-4">
 <div class="au-card au-card au-body  au-card--shadow au-card--centred au-card--clickable">
 <div class="au-card__inner ">
-<h2 class="au-card__title au-display-lg"><a href="/plays-introduction" class="au-card--clickable__link ">Introduction to Plays</a></h2>
+<h2 class="au-card__title au-display-lg"><a href="{{ site.baseurl }}/plays-introduction" class="au-card--clickable__link ">Introduction to Plays</a></h2>
 <p class="au-card__content">How the Plays can help you develop your business case</p>
 </div>
 </div>
@@ -43,7 +43,7 @@ The Playbook is based on the experience of Australia, and other OECD members, in
 <li class="col-xs-12 col-sm-4">
 <div class="au-card  au-card--shadow au-card--centred au-card--clickable au-card ">
 <div class="au-card__inner ">
-<h2 class="au-card__title au-display-lg"><a href="/plays" class="au-card--clickable__link ">Plays</a></h2>
+<h2 class="au-card__title au-display-lg"><a href="{{ site.baseurl }}/plays" class="au-card--clickable__link ">Plays</a></h2>
 <p class="au-card__content">These ten actions (called Plays) describe the essential steps for developing your business case</p>
 </div>
 </div>
@@ -65,7 +65,7 @@ The Playbook is based on the experience of Australia, and other OECD members, in
 
 <p>The Organisation for Economic Co-operation and Development (OECD) Recommendation on <a href="https://www.oecd.org/gov/digital-government/recommendation-on-digital-government-strategies.htm">Digital Government Strategies</a> highlights the importance of the business case ‘to sustain the funding and focused implementation of digital technologies projects’.</p>
 
-<p>Learn more <a href="/about">about the work of the OECD E-Leaders</a>.</p>
+<p>Learn more <a href="{{ site.baseurl }}/about">about the work of the OECD E-Leaders</a>.</p>
 </div>
 </div>
 </div>

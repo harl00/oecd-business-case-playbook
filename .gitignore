@@ -5,4 +5,4 @@ _auds.scss
 pancake
 .jekyll-cache
 vsCodeWorkspace.code-workspace
-_site/*
+_site
