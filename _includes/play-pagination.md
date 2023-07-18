@@ -43,12 +43,12 @@
 <div class="row">
 <div class="pagination col-xs-12">
     {% if prevPost.url %}
-    <a class="prev" rel="prev" href="{{ prevPost.url }}">
+    <a class="prev" rel="prev" href="{{ site.baseurl }}{{ prevPost.url }}">
         <span><i class="fa fa-chevron-left" aria-hidden="true"></i> {{ prevPost.title }}</span>
     </a>
     {% endif %}
     {% if nextPost.url %}
-    <a class="next" rel="next" href="{{ nextPost.url }}">
+    <a class="next" rel="next" href="{{ site.baseurl }}{{ nextPost.url }}">
         <span>{{ nextPost.title }} <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
     </a>
     {% endif %}
