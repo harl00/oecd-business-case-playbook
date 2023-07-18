@@ -27,7 +27,9 @@
     </div>
     <main class="page-wrapper au-body">
         <div id="content" class="container-fluid">
+		{% comment %}
             # {% include breadcrumbs.md %}
+			{% endcomment %}
 			{% include breadcrumbs.html %}
             <h1>{{page.title}}</h1>
             {{ content }}
