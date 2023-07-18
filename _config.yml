@@ -15,7 +15,7 @@ url: "https://harl00.github.io" # the base hostname & protocol for your site, e.
 collections:
   plays:
     output: true
-    permalink: /plays/:path/
+    permalink: {{ site.baseurl }}/plays/:path/
     order:
       - establish-your-team.html
       - engage-your-sponsors.html
