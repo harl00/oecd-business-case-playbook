@@ -20,7 +20,7 @@
 				{% if page.title %}
 					{% capture last_breadcrumb %}{{ page.title }}{% endcapture %}
 				{% else %}
-					{% capture last_breadcrumb %}{{ url_part | remove: ".html" }}{% endcapture %}
+					{% capture last_breadcrumb %}/{{ site.baseurl }}/{{ url_part | remove: ".html" }}{% endcapture %}
 				{% endif %}
 				<li>
 					<a href="{{ previous_url }}/{{ url_part }}">{{ last_breadcrumb }}</a>
