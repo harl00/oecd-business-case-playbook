@@ -9,7 +9,7 @@
 title: Business Case Playbook
 description: Business Case Playbook website
 baseurl: "/oecd-business-case-playbook" # the subpath of your site, e.g. /blog
-url: "https://harl00.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://harl00.github.io/oecd-business-case-playbook" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 collections:
