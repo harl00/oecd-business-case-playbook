@@ -13,7 +13,7 @@
 		{% else %}
 			{% if forloop.last == false %}
 				<li>
-					<a href="{{ previous_url }}/{{ site.baseurl }}{{ url_part }}">{{ url_part }}</a>
+					<a href="{{ previous_url }}/{{ site.baseurl }}/{{ url_part }}">{{ url_part }}</a>
 				</li>
 				{% capture previous_url %}{{ previous_url }}/{{ url_part }}{% endcapture %}
 			{% else %}
