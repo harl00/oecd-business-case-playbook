@@ -15,7 +15,7 @@
 				<li>
 					<a href="{{ previous_url }}/{{ url_part }}">{{ url_part }}</a>
 				</li>
-				{% capture previous_url %}{{ previous_url }}/{{ url_part }}{% endcapture %}
+				{% capture previous_url %}{{ previous_url }}//test{{ url_part }}{% endcapture %}
 			{% else %}
 				{% if page.title %}
 					{% capture last_breadcrumb %}{{ page.title }}{% endcapture %}
