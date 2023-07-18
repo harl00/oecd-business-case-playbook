@@ -12,7 +12,7 @@
                     </span>
                 </div>
                 <div class="au-card__inner">
-                    <h3 class="au-card__title"><a class="au-card--clickable__link" href="{{ play.url }}">{{ play.title }}</a></h3>
+                    <h3 class="au-card__title"><a class="au-card--clickable__link" href="{{ site.baseurl }}{{ play.url }}">{{ play.title }}</a></h3>
                 </div>
             </div>
         </li>
