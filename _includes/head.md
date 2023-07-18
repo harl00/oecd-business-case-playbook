@@ -39,3 +39,4 @@
     <script src="{{ site.baseurl }}/assets/js/respond.js"></script>
 <![endif]-->
 <script src="{{ site.baseurl }}/assets/js/header.js"></script>
+<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
